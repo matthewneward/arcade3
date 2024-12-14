@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="matthew neward"> 
+    <link href="css/arcadecss.css" rel="stylesheet" type="text/css">
+    <title>arcade1</title>
+</head>
+<body>
+    <!-- entry prompt/top of arcade-->
+    <div id="Top-of-arcade">
+        <h1>The Arcade</h1>
+        <button onclick="runPlaySession()">Begin play session</button>
+    </div>
+
+    <!-- gameplay buttons-->
+    <div id="run-game-buttons">
+        <p id="BNHButton"></p>
+        <p id="guessingGameButton"></p>
+        <p id="magic8BallButton"></p>
+    </div>
+
+    <!-- html printed results for all 3 games-->
+    <div id="BNH-results">
+        <p id="Playerchoice"></p>
+        <p id="Computerchoice"></p>
+        <p id="goodbyemessage"></p>
+    </div>
+
+    <div id="guessing-game-results">
+        <p id="randomNumber"></p>
+        <p id="goodbyeGG"></p>
+    </div>
+
+    <div id="reload-page"> 
+        <p id="reloadButton"></p>
+    </div>
+
+    <div id="Stats-table"> 
+        <p id="statisticsTable"></p>
+    </div>
+
+    <div id="award-badge"> 
+        <p id="award"></p>
+    </div>
+    <!-- javascript files. not sure whether to put them here or in meta tags-->
+    <script src="js/arcadeJS.js"></script>
+</body>
+</html>
